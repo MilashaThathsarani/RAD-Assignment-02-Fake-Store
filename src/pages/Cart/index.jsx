@@ -3,7 +3,7 @@ import {Grid, MenuItem} from "@mui/material";
 import Typography from "@mui/material/Typography";
 import {TextValidator, ValidatorForm} from "react-material-ui-form-validator";
 import CommonButton from "../../component/common/Button";
-import {styleSheet} from "./styles";
+import {styleSheet} from "./style";
 import {withStyles} from "@mui/styles";
 import CustomSnackBar from "../../component/common/SnakBar";
 import ProductService from "../../service/ProductService";
