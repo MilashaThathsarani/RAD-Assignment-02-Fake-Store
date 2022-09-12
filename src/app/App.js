@@ -1,5 +1,5 @@
 import {Route, Routes} from "react-router-dom";
-import LoginAdmin from "../pages/Login";
+import LoginAdmin from "../pages/session/Login";
 import localStorageService from "../service/localStorageService";
 
 function App() {

@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "@mui/material": "^5.10.4",
-    "prop-types": "^15.8.1"
+    "prop-types": "^15.8.1",
+    "react-router-dom": "^6.3.0"
   }
 }
