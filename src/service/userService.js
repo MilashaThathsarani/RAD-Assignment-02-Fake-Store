@@ -1,6 +1,6 @@
-import axios from "../axios";
+import axios from "axios";
 
-class UserService {
+class userService {
 
     addUsers = async (data) => {
         const promise = new Promise((resolve, reject) => {
@@ -35,4 +35,4 @@ class UserService {
         return await promise;
     }
 }
-export default new UserService();
+export default new userService();

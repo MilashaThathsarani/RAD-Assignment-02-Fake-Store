@@ -4,11 +4,12 @@ import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import {Dialog, DialogContent, DialogTitle, Tab, Tabs} from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
-import {withStyles} from "@mui/styles";
+
 import {styleSheet} from "./style";
 import CommonButton from "../Button";
 import {Link} from "react-router-dom";
 import localStorageService from "../../../service/localStorageService";
+import withStyles from "@mui/material/styles/withStyles";
 
 class NavBar extends Component {
     constructor(props) {

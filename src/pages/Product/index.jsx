@@ -6,9 +6,9 @@ import CommonButton from "../../component/common/Button";
 import Button from "@mui/material/Button";
 import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate';
 import {styleSheet} from "./style";
-import {withStyles} from "@mui/styles";
 import CustomSnackBar from "../../component/common/SnakBar";
-import ProductService from "../../service/ProductService";
+import ProductService from "../../service/productService";
+import withStyles from "@mui/material/styles/withStyles";
 
 class Product extends Component {
 

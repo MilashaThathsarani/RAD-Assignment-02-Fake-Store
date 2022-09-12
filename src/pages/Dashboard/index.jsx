@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import Widget from "../../component/common/widgets";
 import {Grid} from "@mui/material";
-import UserService from "../../service/UserService";
-import CartService from "../../service/CartService";
-import ProductService from "../../service/ProductService";
+import UserService from "../../service/userService";
+import CartService from "../../service/cartService";
+import ProductService from "../../service/productService";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import PersonIcon from '@mui/icons-material/Person';
 import CategoryIcon from '@mui/icons-material/Category';

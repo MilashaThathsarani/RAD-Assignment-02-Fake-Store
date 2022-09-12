@@ -1,5 +1,5 @@
 import { DataGrid } from "@mui/x-data-grid";
-import { Component } from "react";
+import React, { Component } from "react";
 
 class CommonDataTable extends Component {
     render() {

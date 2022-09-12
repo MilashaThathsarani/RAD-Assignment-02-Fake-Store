@@ -4,14 +4,14 @@ import Typography from "@mui/material/Typography";
 import {TextValidator, ValidatorForm} from "react-material-ui-form-validator";
 import CommonButton from "../../component/common/Button";
 import {styleSheet} from "./style";
-import {withStyles} from "@mui/styles";
 import CustomSnackBar from "../../component/common/SnakBar";
-import ProductService from "../../service/ProductService";
-import UserService from "../../service/UserService";
+import ProductService from "../../service/productService";
+import UserService from "../../service/userService";
 import CartService from "../../service/CartService";
 import CommonDataTable from "../../component/common/Table";
 import IconButton from "@mui/material/IconButton";
 import DeleteIcon from '@mui/icons-material/Delete';
+import withStyles from "@mui/material/styles/withStyles";
 
 class Register extends Component {
 

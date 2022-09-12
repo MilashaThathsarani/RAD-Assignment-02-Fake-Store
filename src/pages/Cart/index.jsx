@@ -4,13 +4,13 @@ import Typography from "@mui/material/Typography";
 import {TextValidator, ValidatorForm} from "react-material-ui-form-validator";
 import CommonButton from "../../component/common/Button";
 import {styleSheet} from "./style";
-import {withStyles} from "@mui/styles";
 import CustomSnackBar from "../../component/common/SnakBar";
-import ProductService from "../../service/ProductService";
+import ProductService from "../../service/productService";
 import {DesktopDatePicker, LocalizationProvider} from "@mui/x-date-pickers";
 import {AdapterMoment} from '@mui/x-date-pickers/AdapterMoment';
-import UserService from "../../service/UserService";
-import CartService from "../../service/CartService";
+import UserService from "../../service/userService";
+import CartService from "../../service/cartService";
+import withStyles from "@mui/material/styles/withStyles";
 
 class Cart extends Component {
 

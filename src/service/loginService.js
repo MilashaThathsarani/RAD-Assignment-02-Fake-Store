@@ -1,6 +1,6 @@
-import axios from "../axios";
+import axios from "axios";
 
-class LoginService {
+class loginService {
     postLogin=async (data)=>{
         const promise = new Promise((resolve, reject) => {
             axios.post('auth/login',data).then((res)=>{
@@ -12,4 +12,4 @@ class LoginService {
         return await promise;
     }
 }
-export default new LoginService();
+export default new loginService();

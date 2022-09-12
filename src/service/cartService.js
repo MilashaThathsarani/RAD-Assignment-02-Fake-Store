@@ -1,6 +1,6 @@
-import axios from "../axios";
+import axios from "axios";
 
-class CartService {
+class cartService {
 
     addCart = async (data) => {
         const promise = new Promise((resolve, reject) => {
@@ -25,4 +25,4 @@ class CartService {
     }
 
 }
-export default new CartService();
+export default new cartService()
